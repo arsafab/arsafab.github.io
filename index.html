@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Dmitrij Belyj</title>
+  
+  <style>
+     * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box
+    }
+    img{
+      height: 180px;
+    }
+    img:hover{
+      -webkit-filter: grayscale(50%); /* Safari */
+      filter: grayscale(50%);
+      transition: all .2s;
+    }
+    body {
+      background-color: #111;
+      font: normal 100%/1.5 "Lato", sans-serif;
+      color: white;
+      text-align: center
+    }
+
+    .demo-wrapper {
+      padding: 1em
+    }
+
+    header {
+      font-size: 20px;
+      padding: 1em 1.5em;
+      line-height: .5em;
+      background-color: #454683;
+      color: white
+    }
+
+    h1 {
+      text-align: center
+    }
+
+    #gallery-container {
+      font-size: 20px;
+      margin: auto;
+      position: relative;
+      max-width: 50em;
+      text-align: center;
+      overflow: hidden;
+      padding-top: 1em
+    }
+
+    #gallery-container:full-screen {
+      max-width: 100% !important;
+      width: 100%;
+      height: 100% !important;
+      background-color: #111
+    }
+
+    #gallery-container:-webkit-full-screen {
+      max-width: 100% !important;
+      width: 100%;
+      height: 100% !important;
+      background-color: #111
+    }
+
+    #gallery-container:-moz-full-screen {
+      max-width: 100% !important;
+      width: 100%;
+      height: 100% !important;
+      background-color: #111
+    }
+
+    .grid {
+      width: .66em;
+      height: .66em;
+      text-align: center;
+      line-height: .5em;
+      cursor: pointer;
+      display: inline-block;
+      margin-right: 10px
+    }
+
+    .icon-grid {
+      display:inline-block;
+      width: 20px;
+      height: 20px;
+      background-image: url(../images/controls-light2.png);
+      background-repeat: no-repeat
+    }
+
+    .icon-grid {
+      background-position: 0 0
+    }
+
+    .item {
+      display: inline-block;
+      cursor: pointer;
+      width: 24%;
+      height: auto;
+      margin-right: .5%
+    }
+
+    .item img{
+      width: 100%;
+      display:block;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<div class="demo-wrapper">
+<h1>These are links to my websites. Click them!</h1>
+    <div id="gallery-container">
+    
+    <ul class="items--small">
+      <li class="item"><a href="https://israel-medical.info/"><img src="images/im.jpg" alt="" /></a></li>
+      <li class="item"><a href="https://israel-plastic.ru/"><img src="images/ip.jpg" alt="" /></a></li>
+      <li class="item"><a href="https://yourstone.by/"><img src="images/your.jpg" alt="" /></a></li>
+    </ul>
+  </div>
+
+</div>
+</body>
+</html>
