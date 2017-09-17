@@ -1,5 +1,5 @@
 # sites
-Here I leave the links to my webpages
+Here I leave the links to my websites
 <br />
 <ul>
 <li><a href="https://israel-medical.info/">israel-medical.info</a></li>
